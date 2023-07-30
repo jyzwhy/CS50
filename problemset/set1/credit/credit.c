@@ -18,7 +18,7 @@ int main(void)
     // Get bank name
     string bank = isWhichBank(bank_num);
 
-    if (bank[0] == "I")
+    if (bank[0] == 'I')
     {
         printf("%s", bank);
     }
