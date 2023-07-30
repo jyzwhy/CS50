@@ -1,7 +1,5 @@
 #include <cs50.h>
 #include <stdio.h>
-// to make the program more effcient
-#include <string.h>
 
 int get_dignum(long number);
 bool isValid(long number, int dig_num);
@@ -20,7 +18,7 @@ int main(void)
     // Get bank name
     string bank = isWhichBank(bank_num);
 
-    if (strcmp(bank, "ISVALID\n") == 0)
+    if (bank[0] == "I")
     {
         printf("%s", bank);
     }
