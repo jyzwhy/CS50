@@ -1,12 +1,12 @@
 #include <cs50.h>
 #include <stdio.h>
 
-const int upperbegin = 65;
-const int upperend = 90;
-const int lowerbegin = 97;
-const int lowerend = 122;
-const int numberbegin = 48;
-const int numberend = 57;
+const int upperbegin = 'A';
+const int upperend = 'Z';
+const int lowerbegin = 'a';
+const int lowerend = 'z'; 
+const int numberbegin = '0';
+const int numberend = '9';
 
 char cipher(char plain, int move);
 
