@@ -1,15 +1,15 @@
 Times:
 
-10 simulations: TODO (record time using 0m0.000s format)
-100 simulations: TODO (record time using 0m0.000s format)
-1000 simulations: TODO (record time using 0m0.000s format)
-10000 simulations: TODO (record time using 0m0.000s format)
-100000 simulations: TODO (record time using 0m0.000s format)
-1000000 simulations: TODO (record time using 0m0.000s format)
+10 simulations: 0m0.030s
+100 simulations: 0m0.031s
+1000 simulations: 0m0.036s
+10000 simulations: 0m0.087s
+100000 simulations: 0m0.585s
+1000000 simulations: 0m5.970s
 
 Questions:
 
-Which predictions, if any, proved incorrect as you increased the number of simulations?: TODO
+Which predictions, if any, proved incorrect as you increased the number of simulations?: The first several predictions.
 
 Suppose you're charged a fee for each second of compute time your program uses.
-After how many simulations would you call the predictions "good enough"?: TODO
+After how many simulations would you call the predictions "good enough"?: 10000 in this condition. In more general cases, I believe that when I can consistently obtain the same ranking in each simulation, then the number of simulations I have conducted is sufficient.
